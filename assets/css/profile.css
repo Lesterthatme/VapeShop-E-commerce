@@ -1,0 +1,76 @@
+:root {
+    --green: #27ae60;
+    --red: #e74c3c;
+    --black: #111829;
+    --light-color: #e2ebb7;
+    --yellow: rgb(242, 204, 29);
+    --light-yellow: rgb(243, 217, 99);
+    --box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.3);
+    --border: 0.2rem solid var(--black);
+  }
+  
+  section:nth-child(1n) {
+    background-color: #fff;
+  }
+  
+  .user-details {
+    margin-top: 2rem;
+    background-color: #fff;
+  }
+  
+  .user-details .user {
+    width: 70rem;
+    background-color: #fff;
+    padding: 3rem;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    margin: 6rem auto;
+  }
+  .user-details .user .imahe{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-details .user h3 {
+    font-size: 5.5rem;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-bottom: 2px solid var(--black);
+    padding-bottom: 2rem;
+  }
+  
+  .user-details .user p {
+    padding: 2rem 0;
+    line-height: 1.5;
+    font-size: 3.5rem;
+  }
+  
+  .user-details .user p span {
+    color: var(--black);
+    font-weight: 600;
+  }
+  
+  .user-details .user p i {
+    margin-right: 1.5rem;
+    color: var(--black);
+  }
+  
+  .account {
+    border-top: 2px solid var(--black);
+    margin-top: 2rem;
+  }
+  
+  .btn,
+  .delete-btn,
+  .logout-btn {
+    margin-right: 6px;
+  }
+  
+  .btn:hover,
+  .delete-btn:hover,
+  .logout-btn:hover {
+    letter-spacing: 0.2rem;
+  }
+  

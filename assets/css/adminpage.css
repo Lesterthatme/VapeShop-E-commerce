@@ -1,0 +1,341 @@
+section {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.btn,
+.delete-btn,
+.option-btn {
+  display: block;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  font-size: 2.8rem;
+  color: var(--white);
+  padding: 1.2rem 3rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.btn {
+  background-color: var(--green);
+}
+
+.delete-btn {
+  background-color: var(--red);
+}
+
+.option-btn {
+  background-color: var(--orange);
+}
+
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover {
+  background-color: var(--black);
+}
+
+.flex-btn {
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.flex-btn .delete-btndisabled {
+  display: none;
+}
+
+.message {
+  position: absolute;
+  top: 0;
+  width: 1860px;
+  margin: 0 auto;
+  background-color: var(--light-bg);
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.message span {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.message i {
+  font-size: 2.5rem;
+  color: var(--red);
+  cursor: pointer;
+}
+
+.message i:hover {
+  color: var(--black);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  color: var(--black);
+  font-size: 8rem;
+  width: 1500px;
+  padding: 1rem;
+}
+
+.empty {
+  border: var(--border);
+  border-radius: 0.5rem;
+  background-color: var(--white);
+  padding: 1.5rem;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--red);
+  box-shadow: var(--box-shadow);
+}
+
+.title {
+  margin-top: 10rem;
+  /* border-bottom: 4px solid var(--black); */
+  margin-bottom: 2rem;
+}
+
+.form-container {
+  margin: 0 27.5%;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.form-container form {
+  background-color: var(--white);
+  border-radius: 2rem;
+  /* border: var(--border); */
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  text-align: center;
+  width: 70rem;
+}
+
+.form-container form h3 {
+  font-size: 4.5rem;
+  color: var(--black);
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+}
+
+.form-container form p {
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: var(--light-color);
+}
+
+.form-container form p span {
+  color: var(--red);
+}
+
+.form-container form .box {
+  width: 100%;
+  background-color: var(--white);
+  padding: 1.5rem;
+  font-size: 2rem;
+  color: var(--black);
+  margin: 1rem 0;
+  border: var(--border);
+  border-radius: 2rem;
+}
+
+.register {
+  margin: 200px 38%;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.register form {
+  background-color: var(--white);
+  border-radius: 2rem;
+  box-shadow: var(--box-shadow);
+  padding: 2rem;
+  text-align: center;
+  width: 75rem;
+}
+
+.register form h3 {
+  font-size: 4.5rem;
+  color: var(--black);
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.register form p {
+  margin: 1rem 0;
+  font-size: 3rem;
+  color: var(--light-color);
+}
+
+.register form p span {
+  color: var(--red);
+}
+
+.register form .box {
+  width: 100%;
+  background-color: var(--white);
+  padding: 1.4rem;
+  color: var(--black);
+  margin: 1rem 0;
+  border: var(--border);
+  font-size: 2.3rem;
+  border-radius: 2rem;
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0px 0 0 270px;
+}
+
+.container section {
+  margin-left: -20px;
+}
+
+.container .accounts {
+  margin-left: 120px;
+}
+
+.container .accounts .heading {
+  border-style: groove;
+  width: 1470px;
+  margin-top: 10px;
+}
+
+.accounts .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 50rem);
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+.accounts .box-container .box {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  padding: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.accounts .box {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  padding: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  width: 50rem;
+  margin-bottom: 2rem;
+}
+
+.accounts .box p {
+  padding: 0.5rem 0;
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.accounts .box-container .box p span {
+  color: var(--main-color);
+}
+
+.messages {
+  margin-left: 360px;
+  margin-right: 0;
+
+  width: 1520px;
+}
+
+.messages .heading {
+  border-style: groove;
+  width: 1520px;
+  margin-top: 10px;
+}
+
+.messages .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 43rem);
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 0;
+}
+
+.messages .box-container .box {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  padding: 2rem;
+  padding-top: 1rem;
+}
+
+.messages .box-container .box p {
+  padding: 0.5rem 0;
+  line-height: 1.5;
+  font-size: 1.8rem;
+  color: var(--black);
+  font-weight: 600;
+}
+
+.messages .box-container .box p textarea {
+  font-weight: normal;
+  color: var(--black);
+  border: var(--border);
+  overflow: auto;
+  width: 38.5rem;
+  height: 20rem;
+  font-size: 1.8rem;
+}
+
+.messages .box-container .box p span {
+  font-weight: normal;
+  color: var(--main-color);
+  padding-right: 1rem;
+  max-width: 19rem;
+}
+
+.cat-selector .cat {
+  background-color: var(--green);
+  color: white;
+  text-decoration: none;
+  font-size: 2.5rem;
+  border: #111829;
+  border-radius: 10px;
+  margin: 25px 15px;
+  padding: 10px 15px;
+}
+
+.cat-selector .cat:hover {
+  background-color: var(--black);
+}
+
+.cat-selector {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  margin-left: 133px;
+}
+
+.messages .cat-selector {
+  margin-left: -2px;
+}

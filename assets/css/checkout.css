@@ -1,0 +1,111 @@
+:root {
+    --blue: #2980b9;
+    --green: #29b941;
+    --red: tomato;
+    --orange: orange;
+    --black: #333;
+    --white: #fff;
+    --bg-color: #eee;
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+    --border: 0.1rem solid #999;
+    --yellow: rgb(242, 204, 29);
+    --light-yellow: rgb(243, 217, 99);
+  }
+  
+  section:nth-child(1n) {
+    background-color: #fff;
+  }
+  
+  .checkout form {
+    box-shadow: var(--box-shadow);
+    max-width: 60rem;
+    margin: 5rem auto;
+    border-radius: 15px;
+    padding: 3rem;
+  }
+  
+  .checkout form h3 {
+    font-size: 4.5rem;
+    text-transform: capitalize;
+    padding: 2.5rem 0;
+    color: var(--black);
+    text-align: center;
+    padding-bottom: 5px;
+  }
+  
+  .checkout form .cart-items {
+    margin-top: 2rem;
+    background-color: var(--bg-color);
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2.5rem;
+    padding-top: 0;
+    color: var(--black);
+  }
+  
+  .checkout form .cart-items h3 {
+    color: var(--white);
+  }
+  
+  .checkout form .cart-items p {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+    margin: 2rem 0;
+    line-height: 1.5;
+    font-size: 3rem;
+  }
+  
+  .checkout form .cart-items p .name {
+    color: var(--black);
+  }
+  
+  .checkout form .cart-items p .price {
+    color: var(--black);
+  }
+  
+  .checkout form .cart-items .grand-total {
+    background-color: var(--white);
+    padding: 0.5rem 1.5rem;
+  }
+  
+  .checkout form .cart-items .grand-total .price {
+    color: var(--red);
+    font-size: 4.5rem;
+  }
+  
+  .checkout form .user-info p {
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 1.5rem 0;
+  }
+  
+  .checkout form .user-info p i {
+    color: var(--black);
+    margin-right: 1.5rem;
+  }
+  
+  .checkout form .user-info p span {
+    color: var(--black);
+  }
+  
+  .checkout form .user-info .box {
+    width: 100%;
+    border: var(--border);
+    padding: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2.8rem;
+  }
+  
+  .checkout form .user-info .select-box {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: var(--border);
+    padding: 1.4rem;
+    font-size: 2.8rem;
+    color: var(--black);
+  }
+  

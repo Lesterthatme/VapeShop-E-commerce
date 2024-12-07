@@ -1,0 +1,241 @@
+.maininventory{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+    width: 81.3vw;
+    height: 100%;
+
+    margin-left: 18.7vw;
+
+
+}
+
+.container {
+    max-width: 81.3vw;
+    height: 100%;
+
+
+
+  }
+  
+  .container section {
+    margin-left: -60px;
+    
+
+  }
+  .container section:nth-child(1) {
+    margin-left: 15px;
+
+    
+  }
+  .container section:nth-child(1) form{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  .btn,
+  .option-btn,
+  .delete-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 2.7rem;
+    padding: 1.2rem 3rem;
+    border-radius: 0.5 rem;
+    cursor: pointer;
+    motion-path: 1rem;
+    height: 40%;
+  }
+  
+  .btn:hover,
+  .option-btn:hover,
+  .delete-btn:hover {
+    background-color: var(--black);
+  }
+  
+  .option-btn i,
+  .delete-btn i {
+    padding-right: 0.5rem;
+  }
+  
+  .option-btn {
+    margin-top: 0.5rem;
+    background-color: var(--orange);
+  }
+  
+  .delete-btn {
+    margin-top: 0;
+    background-color: var(--red);
+  }
+  
+  .add-product {
+    max-width: 70rem;
+    background-color: var(--white);
+    border-radius: 1.4rem;
+    padding: 2.5rem;
+    margin: 5rem 0 0 400px;
+    margin-top: 6rem;
+    box-shadow: var(--box-shadow);
+  }
+  
+  .add-product h3 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--blue);
+    color: var(--blue);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .add-product .box {
+    text-transform: capitalize;
+    padding: 1.4rem;
+    color: var(--black);
+    border-radius: 1.2rem;
+    background-color: var(--white);
+    border: var(--border);
+    margin: 1rem 0;
+    width: 100%;
+    font-size: 2rem;
+  }
+  
+  .add-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 2.7rem;
+    padding: 1.2rem 3rem;
+    border-radius: 0.5 rem;
+    cursor: pointer;
+    motion-path: 1rem;
+  }
+  
+  .add-btn:hover {
+    background-color: var(--black);
+  }
+  
+  .display-products table {
+    width: 95%;
+    text-align: center;
+    margin: 0 0 0 70px;
+
+    overflow: scroll;
+  }
+  
+  .display-products table thead th {
+    padding: 0.5rem;
+    font-size: 2rem;
+    background-color: var(--black);
+    color: var(--white);
+  }
+  
+  .display-products table td {
+    padding: 0 0.2rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 1.8rem;
+    color: var(--black);
+  }
+  
+  .display-products table td:first-child {
+    padding: 0;
+  }
+  
+  .display-products table tr:nth-child(odd) {
+    background-color: white;
+  }
+  .display-products table tr:nth-child(even) {
+    background-color: rgb(246, 246, 246);
+  }
+  
+  .display-products .empty {
+    margin-bottom: 2rem;
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--black);
+    font-size: 2rem;
+    padding: 1.5rem;
+    margin-left: 40px;
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+    width: 81.3vw;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 1.8rem;
+    padding: 0.8rem 2.8rem;
+    border-radius: 0.5 rem;
+    cursor: pointer;
+    motion-path: 1rem;
+    margin: 3px 0 3px;
+  }
+  
+  .edit-btn:hover,
+  .delete-btn:hover {
+    background-color: var(--black);
+  }
+  
+  .edit-btn {
+    background-color: green;
+  }
+  
+  .delete-btn {
+    background-color: var(--red);
+    font-size: 1.8rem;
+  }
+  
+  .bodyNgChecking{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0px;
+    height: 5vh;
+  }
+  .bodyNgChecking .btnSaChecking{
+    width: 200px;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 9px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .bodyNgChecking .btnSaChecking:nth-child(1){
+    background-color: grey;
+    color: white;
+  }
+  .bodyNgChecking .btnSaChecking:nth-child(2){
+    background-color: green;
+    color: white;
+  }
+  .bodyNgChecking .btnSaChecking:nth-child(3){
+    background-color: red;
+    color: white;
+  }

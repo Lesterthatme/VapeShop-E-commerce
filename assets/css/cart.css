@@ -1,0 +1,134 @@
+:root {
+    --blue: #2980b9;
+    --green: #29b941;
+    --red: tomato;
+    --orange: orange;
+    --black: #333;
+    --white: #fff;
+    --bg-color: #eee;
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    --border: 0.1rem solid #999;
+  }
+  
+  section:nth-child(1n) {
+    background-color: #fff;
+  }
+  
+  .heading {
+    font-size: 7rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .shopping-cart {
+    margin-top: 7rem;
+    background-color: white;
+  }
+  
+  .shopping-cart table {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .shopping-cart table tr td {
+    border-bottom: var(--border);
+    padding: 2rem;
+    font-size: 3rem;
+    color: var(--black);
+  }
+  
+  .shopping-cart table input[type="number"] {
+    border: var(--border);
+    padding: 1rem 0.1rem;
+    font-size: 3rem;
+    color: var(--black);
+    width: 7rem;
+    text-align: center;
+  }
+  
+  .shopping-cart table input[type="submit"] {
+    padding: 0.5rem 1.5rem;
+    cursor: point;
+    font-size: 3rem;
+    background-color: var(--orange);
+    color: var(--white);
+  }
+  
+  .shopping-cart table input[type="submit"]:hover {
+    background-color: var(--black);
+  }
+  
+  .shopping-cart table .table-bottom {
+    background-color: var(--bg-color);
+  }
+  
+  .update-btn {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 2.7rem;
+    color: #fff;
+    background: rgb(242, 29, 29);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .add-btn,
+  .less-btn {
+    background-color: #fff;
+    border: 1px solid var(--black);
+    background-color: var(--black);
+    color: var(--white);
+    width: 20px;
+    font-size: 22px;
+  }
+  
+  .add-btn:hover,
+  .less-btn:hover {
+    background-color: #838181;
+  }
+  
+  .update-btn:hover {
+    background-color: #838181;
+  }
+  
+  .shopping-cart .checkout-btn {
+    text-align: center;
+    margin-top: 1rem;
+    
+  }
+  
+  .shopping-cart .checkout-btn a {
+    display: inline-block;
+    width: auto;
+    font-size: 3rem;
+    background-color: grey;
+  }
+  .shopping-cart .checkout-btn a:hover {
+    
+    background-color: rgb(45, 45, 45);
+  }
+  
+  .shopping-cart .checkout-btn .btndisabled {
+    display: none;
+  }
+  
+  @media (max-width: 1200px) {
+    .shopping-cart {
+      overflow-x: scroll;
+    }
+  
+    .shopping-cart table {
+      width: 120rem;
+    }
+  
+    .shopping-cart .heading {
+      text-align: left;
+    }
+  
+    .shopping-cart .checkout-btn {
+      text-align: left;
+    }
+  }
+  

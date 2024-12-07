@@ -1,0 +1,148 @@
+.bodyofROS {
+  box-sizing: border-box;
+  padding-left: 370px;
+  width: 100%;
+  margin: 5px 5px 0px 0px;
+}
+
+.dateprompt {
+  display: flex;
+  margin: 5px;
+  flex-direction: column;
+  width: 630px;
+  height: 240px;
+
+  background-color: #cdecf6;
+  border-radius: 8px;
+  border: 2px solid grey;
+}
+.dateprompt h1 {
+  margin-left: 10px;
+  font-weight: 900;
+}
+.dates {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 10px 0px;
+}
+.date1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-weight: bold;
+  font-size: 30px;
+}
+.date1 input {
+  border: 2px solid gray;
+  padding: 5px 5px 5px 15px;
+  width: 150%;
+  border-radius: 8px;
+}
+.date2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+.date2 input {
+  border: 2px solid gray;
+  padding: 5px 5px 5px 15px;
+  width: 150%;
+  border-radius: 8px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn button {
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+  height: 40px;
+  margin: 10px 5px;
+  background-color: green;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+  font-size: 18px;
+}
+.boxSos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  overflow: auto;
+
+  background-color: #cdecf6;
+
+  margin: 5px;
+
+  border-radius: 8px;
+  border: 2px solid grey;
+}
+table {
+  border-collapse: collapse;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.nd-div {
+  padding-left: 1000px;
+}
+
+.outerdiv {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  width: 100%;
+}
+.boxSos table tr th {
+  font-size: 25px;
+}
+.boxSos table tr td {
+  font-size: 20px;
+}
+
+.summaryofsales {
+  padding-left: 360px;
+  margin: 0px 12px;
+}
+
+.headersasummaryofsales {
+  display: flex;
+  justify-content: center;
+}
+.headersasummaryofsales h1 {
+  font-weight: 900;
+}
+
+.showsection {
+  display: flex;
+  justify-content: center;
+  border-radius: 8px;
+}
+.showsection table tr th {
+  background-color: rgb(18, 18, 76);
+  color: white;
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+}
+
+.showsection table td {
+  background-color: #cdecf6;
+  font-size: 20px;
+}
+.showsection table {
+  width: 100%;
+  margin-bottom: 3rem;
+}
